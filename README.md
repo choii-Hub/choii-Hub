@@ -12,9 +12,9 @@ local targetName = "High End"
 local questNPC = "Mirko"
 local questName = "Quest"
 local questAccepted = false
-local questCheckInterval = 25 -- Time in seconds to wait between quest checks
-local moveSpeed = 550 -- Increase this value to move faster
-local swingInterval = 5 -- Time in seconds to wait between swings
+local questCheckInterval = 26.7 -- Time in seconds to wait between quest checks
+local moveSpeed = 600 -- Increase this value to move faster
+local swingInterval = 1 -- Time in seconds to wait between swings
 
 local function getNPC()
     local dist, thing = math.huge
