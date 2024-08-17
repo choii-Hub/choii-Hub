@@ -12,7 +12,7 @@ local targetName = "High End"
 local questNPC = "Mirko"
 local questName = "Quest"
 local questAccepted = false
-local questCheckInterval = 26.7 -- Time in seconds to wait between quest checks
+local questCheckInterval = 27 -- Time in seconds to wait between quest checks
 local moveSpeed = 600 -- Increase this value to move faster
 local swingInterval = 1 -- Time in seconds to wait between swings
 
@@ -114,11 +114,6 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("Choii Hub | Buko no roblox", "BloodTheme")
 local Tab = Window:NewTab("Main")
 local Section = Tab:NewSection("Farming")
-
--- Input for target name
-Section:NewTextBox("Target Name", "Enter target NPC name", function(value)
-    targetName = value
-end)
 
 -- Button to toggle the script
 Section:NewButton("Autofarm", "Enable or Disable Autofarm", function()
